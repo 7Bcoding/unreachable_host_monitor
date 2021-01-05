@@ -1,2 +1,2 @@
 # unreachable_host_monitor
-一个宕机检测自动恢复的监控程序
+一个多线程宕机检测自动恢复的监控程序
