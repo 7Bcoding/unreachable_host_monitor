@@ -13,8 +13,8 @@ class DbClient(object):
     """DB操作类
     """
     def __init__(self, user, passwd):
-        self.dbname = 'iaas_op_data'
-        self.dbhost = '10.21.225.21'
+        self.dbname = 'dbname'
+        self.dbhost = 'xx.xx.xxx.xx'
         self.db = pymysql.connect(self.dbhost, user, passwd, self.dbname, charset='utf8')
         self.cursor = self.db.cursor()
 
