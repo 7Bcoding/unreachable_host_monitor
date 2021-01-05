@@ -74,7 +74,7 @@ class UnreachableHandler(object):
         """获取在线机器
         """
         db_conn = self.init_db_conn('username', 'password')
-        sql = "SELECT * FROM bns_serviceunit_hostinfo WHERE product = 'BBC_SNIC_ONLINE'"
+        sql = "SELECT * FROM hostinfo WHERE product = 'xxx'"
         host_dictlist = db_conn.query_dictlist(sql)
 
         for snic_host_dict in host_dictlist:
